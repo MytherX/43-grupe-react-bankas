@@ -1,0 +1,59 @@
+
+.button {
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+    display: inline - block;
+    background: linear - gradient(to bottom, #ffffff 5%, #070507 100%);
+    background-color: #837d83;
+    border-radius: 30px;
+    border: none;
+    font-size: 15px;
+    text-transform: uppercase;
+    padding: 10px 25px;
+    margin: 3px;
+    
+    &:active {
+        position: relative;
+        top: 1px;
+    }
+}
+
+.button-del {
+    cursor: pointer;
+    text-decoration: none;
+    color: #ffffff;
+    display: inline - block;
+    background-color: #000000;
+    border-radius: 30px;
+    border: 1px solid #f30505;
+    font-size: 15px;
+    text-transform: uppercase;
+    padding: 10px 25px;
+    margin: 3px;
+    
+    &:active {
+        position: relative;
+        top: 1px;
+    }
+}
+
+.button-add {
+    cursor: pointer;
+    text-decoration: none;
+    color:white;
+    display: inline - block;
+    background: linear - gradient(to bottom,  #ffffff 5%, #070507 100%);
+    background-color: #000000;
+    border-radius: 30px;
+    border: none;
+    font-size: 15px;
+    text-transform: uppercase;
+    padding: 10px 25px;
+    margin: 30px 3px 3px;
+    
+    &:active {
+        position: relative;
+        top: 1px;
+    }
+}

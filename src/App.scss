@@ -1,0 +1,165 @@
+//@import './variables.module.scss';
+.App {
+  text-align: center;
+}
+
+
+
+
+
+.App-header {
+  background-color: #4b4e32;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: #ffffff;
+}
+
+h1 {
+  margin: 50px;
+  color: #ffffff;
+}
+
+h2 {
+  font-size: 25px;
+}
+
+p {
+  font-size: 20px;
+  padding: 10px 25px;
+  margin: auto;
+}
+
+.card {
+  background-color: #4f5255;
+  border-color: #000000;
+}
+
+.card-header {
+  border-bottom-color: #000000;
+}
+
+ul.no-bullets {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.accounts-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  padding: 30px 0;
+  flex-direction: column;
+}
+.account-name{
+  display: flex;
+  justify-content: space-between;
+}
+.fieldset {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.fieldset-add-new {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+
+.fieldset-input {
+  background-color: #4b4e32;
+  border-radius: 10px;
+  border: none;
+  text-align: center;
+  font-size: 15px;
+  padding: 10px;
+  max-width: 100%;
+}
+
+.fieldset-buttons {
+  display: flex;
+  flex-direction: column;
+}
+.modal {
+  display: block;
+  background-color: #4b4e32;
+
+  .modal-content {
+    background-color: #e00404;
+  }
+
+  .modal-title,
+  .modal-body {
+    color: #000000;
+  }
+}
+
+.sort {
+  border: 1px solid #000000;
+  border-radius: 5px;
+  width:fit-content;
+  font-size: 15px;
+  padding: 0 10px;
+
+  .sort-button {
+    width: 30px;
+    height: 30px;
+    font-size: 15px;
+    cursor: pointer;
+    color: #000000;
+    align-items: center;
+   padding-left: 10px;
+
+    &:after {
+      content: '\25A2'; // square
+    }
+
+    &.asc::after {
+      content: '\25B3'; // up-pointing triangle
+    }
+
+    &.default::after {
+      content: '\25BD'; // down-pointing triangle
+    }
+  }
+}
+// .messages {
+//   position: fixed;
+//   top: 40px;
+//   right: 50px;
+//   display: flex;
+//   flex-direction: column;
+//   gap: 5px;
+//   .message {
+//       padding: 15px 30px;
+//       border: 1px solid $gray;
+//       background-color: lighten($gray, 10%);
+//       border-radius: 3px;
+//       font-size: 20px;
+//       &.ok {
+//           border-color: $yellow;
+//           background-color: lighten($yellow, 10%);
+//           color: white;
+//       }
+//       &.info {
+//           border-color: $blue;
+//           background-color: lighten($blue, 10%);
+//           color: white;
+//       }
+//       &.error {
+//           border-color: $red;
+//           background-color: lighten($red, 10%);
+//           color: white;
+//       }
+//   }
+// }
+
+
+
